@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<section>
+	<div class="all">
+	<div class="circle"></div>
+	<header>
+		<a href="#"><img src="logo.png" class="logo"></a>
+	<div class="toggle" onclick="togglemenu()"></div>
+		<ul class="navigation">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Menu</a></li>
+			<li><a href="#">What's New</a></li>
+			<li><a href="#">Contact</a></li>
+		</header>
+		<div class="content">
+			<div class="textbook">
+				<h2>Taste the Feeling</h2>
+				<p>Coca-Cola, or Coke, is a carbonated soft drink manufactured by The Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton and was bought out by businessman Asa Griggs Candler, whose marketing tactics led Coca-Cola to its dominance of the world soft-drink market throughout the 20th century.[1] The drink's name refers to two of its original ingredients: coca leaves, and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a trade secret; however, a variety of reported recipes and experimental recreations have been published. The drink has inspired imitators and created a whole classification of soft drink: colas.</p><a href="#">Learn More</a>
+
+		</div>
+		<img src="cocacola1.png">
+	</div>
+	<ul class="sci"> 
+	<li><a href="#"><img src="facebook.png"></a></li>
+	<li><a href="#"><img src="twitter.png"></a></li>
+	<li><a href="#"><img src="instagram.png"></a></li>
+	</ul>
+</div>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+	function togglemenu()
+	{
+		const menuToggle = document.querySelector('.toggle');
+		const navigation= document.querySelector('.navigation')
+		menuToggle.classList.toggle('active')
+		navogation.classList.toggle('active')
+	}
+</script>
+</body>
+</html>
